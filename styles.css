@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #e8ddcf;
+  background-color: #E9DDCF;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 
 .logo img {
