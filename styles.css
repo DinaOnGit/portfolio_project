@@ -158,6 +158,12 @@ strong {
   .aboutme-text {
     width: 100%;
   }
+
+  .mywork {
+grid-template-columns: 1fr;
+padding: 32px 24px;
+}
+
 }
 
 /* Phones only: smaller text */
