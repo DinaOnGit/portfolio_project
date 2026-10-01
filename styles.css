@@ -94,6 +94,31 @@ strong {
   font-size: 20px;
 }
 
+.mywork {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.mywork img {
+  width: 100%;
+}
+
+.mywork h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-title {
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
 /* iPads and phones: stack the layout */
 @media (max-width: 900px) {
   .topnav {
@@ -148,7 +173,7 @@ strong {
   a {
     font-size: 18px;
   }
-  
+
   .aboutme-text {
     font-size: 16px;
   }
