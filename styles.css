@@ -66,6 +66,24 @@ strong {
     width: 30%;
 }
 
+.about {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 60px 20%;
+}
+
+.about img {
+  width: 340px;
+  border-radius: 24px;
+}
+
+.aboutme-text {
+  width: 55%;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 /* iPads and phones: stack the layout */
 @media (max-width: 900px) {
   .topnav {
