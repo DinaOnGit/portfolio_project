@@ -117,7 +117,18 @@ strong {
   text-align: center;
 }
 
+.hobbies {
+    grid-template-columns: repeat (4, 1fr);
+    max-width: 1000px;
+}
 
+.tilt-left {
+    transform: rotate(-10deg);
+}
+
+.tilt-right {
+    transform: rotate(15deg);
+}
 
 /* iPads and phones: stack the layout */
 @media (max-width: 900px) {
