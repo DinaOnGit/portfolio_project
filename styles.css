@@ -98,7 +98,7 @@ strong {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 60px 24px;
 }
@@ -115,11 +115,6 @@ strong {
 .page-title {
   font-weight: 400;
   text-align: center;
-}
-
-.hobbies {
-    grid-template-columns: repeat (4, 1fr);
-    max-width: 1000px;
 }
 
 .tilt-left {
